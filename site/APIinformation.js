@@ -13,7 +13,7 @@
 
   console.log(name)
 
-  const openaikey = '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'
+  const openaikey = 'YourAPIKey' //obtain a secret api key from openAI and input it here
     // const gptResponse = await openai.createCompletion({
     // model: "text-davinci-003",
     // prompt: "give me a list of how to pay taxes",
