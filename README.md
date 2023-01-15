@@ -1,2 +1,2 @@
 # Deltahacks-infinite-crying-
-i abuse chatgpt
+using GPT-3 API
