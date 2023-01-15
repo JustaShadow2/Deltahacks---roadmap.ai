@@ -13,7 +13,7 @@
 
   console.log(name)
 
-  const openaikey = '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'
+  const openaikey = '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'
     // const gptResponse = await openai.createCompletion({
     // model: "text-davinci-003",
     // prompt: "give me a list of how to pay taxes",
@@ -46,18 +46,20 @@
             <head>
                 <meta charset="UTF-8">
                 <title>roadmap.ai</title>
-                <link rel="stylesheet" href="main.css">
+                <link rel="stylesheet" href="styles/main.css">
             </head>
             <body>
-                <html><p>${line}</p></html>
+            <h1>roadmap.ai</h1>
+
+            <div class="newstuff">
+            <p>${line}</p>
+            </div>
         
             </body>
         <div class="footer">
             <p>Demo Release by: Matthew, Arjun, and Spencer 2023</p>
-          </div>
+        </div>
         </html>`)
-
-        
       })
     })
 
