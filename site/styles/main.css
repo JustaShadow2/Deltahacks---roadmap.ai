@@ -1,3 +1,74 @@
 body {
-    text-align: center;
+    background: rgb(148, 148, 148);
+    overflow: hidden;
 }
+
+.centered {
+    text-align: center;
+    margin-top: 13em;
+
+}
+
+.info-button span {
+    width: 9.5em;
+    height: 1.25em;
+}
+
+.info-button {
+    width: 9.5em;
+    height: 1.25em;
+    padding: 0.5em;
+    margin: 0 auto;
+    margin-top:  3em;
+    border-radius: 5px;
+    border-color: rgb(102, 102, 255);
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(126, 184, 145);
+
+    transition: 0.7s;
+}
+
+.info-button:hover {
+    border-color:  rgb(180, 177, 177);
+    background-color: rgb(164, 124, 209);
+    width: 32em;
+    height: 6.5em;
+    transition: 0.7s
+}
+
+.info-button:hover span{
+    display: none;
+}
+
+.info-button:hover::after {
+    content: "roadmap.ai is here to assist you in building a personalized plan to achieve your desired goals. Whether you're looking to get fit, save money, or learn a new skill, our AI will work with you to create a step-by-step plan with specific tasks and deadlines. As you progress, our AI will offer encouragement and provide resources to help you stay on track. Reach your goals faster and more efficiently with the help of our interactive AI.";
+    border-color:  rgb(54, 54, 54);
+    
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.my-form {
+    font-size: 0;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(110, 110, 110);
+    color: black;
+    text-align: center;
+  }
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
