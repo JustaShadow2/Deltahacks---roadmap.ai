@@ -4,6 +4,7 @@
 // apiKey: openaikey,
 // });
 // const openai = new OpenAIApi(configuration);
+// commendted code works in terminal, but not outside. kept it to remind myself of what worked and what didnt
 
 
 (async() => {
