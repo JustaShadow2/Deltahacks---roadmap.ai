@@ -45,7 +45,6 @@
               </head>
               <body>
                   <html><p>${line}</p></html>
-          
               </body>
           <div class="footer">
               <p>Demo Release by: Matthew, Arjun, and Spencer 2023</p>
