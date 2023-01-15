@@ -34,7 +34,7 @@
         model: "text-davinci-003",
         prompt: "list of " + name.toString(),
         temperature: 0,
-        max_tokens: 50,
+        max_tokens: 500,
       })
     }).then(res => res.json())
     .then(data => {
